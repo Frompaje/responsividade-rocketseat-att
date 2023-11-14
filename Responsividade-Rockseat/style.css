@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    background-color: #ECE9FD;
+    font-family: 'Epilogue', sans-serif;
+    max-width: 23.4375rem;
+
+}
+
+/* MAIN */
+main {
+    width: 20.5rem;
+    height: 46.5rem;
+    margin: 3.7rem auto;
+}
+
+main p:first-child {
+    color: #7158EF;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2rem;
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}
+
+main h1 {
+    color: #090039;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3rem;
+    margin-bottom: 0.9375rem;
+}
+
+p {
+    color: rgba(9.50, 0, 57, 0.64);
+    font-size: 1;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+a {
+    color: #090039;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+    margin-top: 4.5rem;
+
+}
+
+li {
+    color: #090039;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+    width: 257px;
+    height: 64px;
+    display: flex;
+    align-items: start;
+
+}
+
+li span {
+    color: #090039;
+    font-size: 4.5rem;
+    font-weight: 800;
+    line-height: 5rem;
+    margin-right: 1.6rem;
+
+}
+
+@media(min-width:768px) {
+    .container {
+        display: flex;
+        gap: 3.1rem;
+
+    }
+
+    main {
+        display: flex;
+        margin-left: 1.8rem;
+        gap: 2.5rem;
+    }
+
+    main h1 {
+        width: 29.3rem;
+    }
+
+    ul {
+        margin-right: 1.8rem;
+    }
+}
+
+@media(min-width:1024px) {
+    .container {
+        display: flex;
+        gap: 7.25rem;
+    }
+    
+    main {
+        display: flex;
+        padding: 8px;
+    }
+    
+    ul li {
+        align-items: center;
+        width: 26.1rem;
+    }
+    
+}
+
+@media(min-width:1440px) {
+    .box-body {
+        width: 90rem;
+        height: 54.3rem;
+      
+
+
+    }
+
+    .box {
+        width: 30.2rem;
+        margin-right: 7.2rem;
+    }
+
+    .box h1 {
+        width: 30.2rem;
+    }
+
+    main {
+        width: 63.8rem;
+        height: 23.5rem;
+        margin: 15% auto;
+    }
+
+    .container {
+        gap: 0;
+        width:63.8rem;
+        height: 23.5rem;
+    }
+
+}
